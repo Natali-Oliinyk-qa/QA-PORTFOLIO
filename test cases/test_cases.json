@@ -8,4 +8,35 @@
       "2":"And user clicks Add to Cart button"
     },
     "Expected result":"Then product should be added to the Cart"
+},
+{
+  "TestCase_id":"2",
+  "Title":"The total price should reflect the removing product from the Cart",
+  "Precondition":"Given user is on the Cart page",
+  "Steps":
+  {
+    "1":"When there is at least one item in the Cart",
+    "2":"And user deletes the product from the Cart"
+  },
+  "Expected result":"Then the Total price should reflect to the changes"
+},
+{
+  "TestCase_id":"3",
+  "Title":"User should be able to navigate back to the Cart by clicking the Edit Cart link",
+  "Precondition":"Given user is on the Checkout page",
+  "Steps":
+  {
+    "1":"When user clicks the Edit Cart link"
+  },
+  "Expected result":"Then the Cart page should open"
+},
+{
+  "TestCase_id":"4",
+  "Title":"The Sales tax should be fixed for all users and equal to 7%",
+  "Precondition":"",
+  "Steps":
+  {
+    "1":"Given user is on the Checkout page"
+  },
+  "Expected result":"Then the taxes should be always equal to 7% And taxes should be calculated correctly"
 }
