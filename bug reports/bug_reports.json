@@ -1,0 +1,16 @@
+{
+    "Bug_id":"1",
+    "Severity":"Major",
+    "Enviroment":"Test",
+    "Module" : "Cart Page",
+    "Summary":"Page Not Found - error message displays if the user clicks on a product in the Cart",
+    "Precondition" : "User's logged in",
+    "Steps to reproduce":
+    {
+        "1":"Add any item to the Cart",
+        "2":"Go to the Cart",
+        "3":"Click on the product from the Cart"
+    },
+    "Actuale result":"Page Not found error message displays",
+    "Expected result":"User should be able to open the Product Details page by clicking on the product" 
+}
