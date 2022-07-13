@@ -1,10 +1,11 @@
 {
     "TestCase_id":"1",
-    "Title":"User should be able to delete the item from the Cart",
-    "Precondition":"Given user is on the Cart page and the Cart is not empty",
+    "Title":"User should be able to add the selected product and quantity to the Сart using the Add to Cart button",
+    "Precondition":"Given user is on the Product detail page",
     "Steps":
     {
-      "1":"When user clicks X button for any item"
+      "1":"When user has selected a product and the quantity of the product",
+      "2":"And user clicks Add to Cart button"
     },
-    "Expected result":"Then this item should be deleted from the Cart"
+    "Expected result":"Then product should be added to the Cart"
 }
