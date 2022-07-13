@@ -1,0 +1,10 @@
+{
+    "TestCase_id":"1",
+    "Title":"User should be able to delete the item from the Cart",
+    "Precondition":"Given user is on the Cart page and the Cart is not empty",
+    "Steps":
+    {
+      "1":"When user clicks X button for any item"
+    },
+    "Expected result":"Then this item should be deleted from the Cart"
+}
