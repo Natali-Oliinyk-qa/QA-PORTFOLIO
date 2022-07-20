@@ -2,11 +2,11 @@
     "Bug_id":"1",
     "Environment":"Test",
     "Module" : "Cart Page",
-    "Summary":""Page Not Found" - an error message is displayed if the user clicks on a product in the Cart",
+    "Summary":"Page Not Found - an error message is displayed if the user clicks on a product in the Cart",
     "Precondition" : "User's logged in",
     "Steps to reproduce":
     {
-        "1":"Add any item to the Cart (e.g. "Carmel Brown Sofa")",
+        "1":"Add any item to the Cart (e.g. Carmel Brown Sofa)",
         "2":"Go to the Cart",
         "3":"Click on the product from the Cart"
     },
@@ -24,7 +24,7 @@
     "Precondition" : "User's logged in",
     "Steps to reproduce":
     {
-        "1":"Add any product to the Cart (e.g. "Carmel Brown Sofa")",
+        "1":"Add any product to the Cart (e.g. Carmel Brown Sofa)",
         "2":"Go to Checkout",
         "3":"Review the Total price",
     },
@@ -57,14 +57,14 @@
     "Severity":"Major",
     "Environment":"Test",
     "Module" : "Hero product",
-    "Summary":""Page Not Found" - an error appears after the user clicks the "Shop Now" button",
+    "Summary":"Page Not Found - an error appears after the user clicks the Shop Now button",
     "Precondition" : "User's logged in",
     "Steps to reproduce":
     {
         "1":"Go to Home page",
-        "2":"Click "Shop Now" button for the Hero product",
+        "2":"Click Shop Now button for the Hero product",
     },
-    "Actuale result":""Page Not Found" - an error message displays",
+    "Actuale result":"Page Not Found - an error message displays",
     "Expected result":"The Product Details Page for the Hero product is opened" 
     "Severity":"Major",
     "Note" :"",
